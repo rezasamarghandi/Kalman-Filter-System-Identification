@@ -44,7 +44,7 @@ Q=H.'*H;
 
 Pk1=Pk+Q;
 
-R=cov((Y-H*thetak1).');
+R=cov((y-H*thetak1).');
 
 S=H*Pk1*H.'+R; %noise covariance matrix
 
