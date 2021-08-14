@@ -10,7 +10,7 @@ function [A, B]=kfc(y, u, t)
 % Email: Rezasamargandi@yahoo.com                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+global theta Pk
 
 n=size(y,1);
 m=size(u,1);
